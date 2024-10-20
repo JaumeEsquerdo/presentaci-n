@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación</title>
+    <meta name="description" content="Esta es una pagina que enseña a los demás una breve descripción de mi">
+    <meta name="keywords" content=" Primer día, presentaciones">
+    <meta name="author" content="Jaume Esquerdo Ramis">
+    <style>
+        body{
+        background: linear-gradient(to bottom, #a9c7d9,#489dd1);
+        text-align: center;
+        }
+        
+        .casas{
+            width: 1400px;
+            height: 700px;
+        }
+        .button-link{
+            display: inline-block;
+            padding: 15px;
+            background-color: bisque;
+            color: rgb(95, 91, 91);
+            text-decoration: dotted;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+        .button-link:hover{
+            background-color: #a9c7d9;
+            box-shadow:  3px 2px 6px black;
+
+        }
+        .button-link:active{
+            background-color: rgb(116, 116, 218);
+            padding: 17px;
+        }
+        .table{
+            width: 70%;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        th, td{
+            padding: 5px;
+            background-color: bisque;
+            border: 2px solid black;
+        }
+        
+        th{
+            background-color: beige;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Hola! Soy Jaume</h1>
+    <hr>
+
+    <div class="info">
+    <h2 id="">Sobre mí:</h2> 
+        <p>Tengo 28 años y soy de Villajoyosa (Alicante), un pueblo costero con mucha tradición pesquera y de chocolate.
+        Para explicar lo especial que es mi pueblo tan solo basta con que lo veáis vosotros mismos...
+        </p>
+    <img class="casas" title="Villajoyosa" src="https://content.r9cdn.net/rimg/dimg/1f/97/7e311026-city-49926-163f4f7f7fa.jpg?width=1366&height=768&xhint=2564&yhint=2268&crop=true" alt="Esto es una foto de Villajoyosa">
+    <br><a href="https://www.turismolavilajoiosa.com/" class="button-link"><em>Podéis ver más sobre Villajoyosa aquí</em></a>
+    </div>
+        <br><hr><br>
+
+    <h2>Actividades y gustos</h2>
+
+    <table class=table title="Actividades">
+        <caption></caption>
+        <tr>
+            <th>Actividades</th>
+            <th>Serie y película favorita</th>
+        </tr>
+        <tr>
+            <td>Salir con mis amigos</td>
+            <td rowspan="2">Seven</td>
+        </tr>
+        <tr>
+            <td>Pasear por la playa</td>
+            
+        </tr>
+        <tr>
+            <td>Pasar tiempo con mi perro</td>
+            <td rowspan="2">True detective</td>
+        </tr>
+        <tr>
+            <td>Entrenar</td>
+            
+        </tr>
+    </table>
+    <br>
+    <br>
+</body>
+</html>
